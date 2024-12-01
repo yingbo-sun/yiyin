@@ -17,8 +17,8 @@ jobs:
 
           - name: 拉取自身仓库代码
             uses: actions/checkout@v4
-            with:
-              ref: dev
+            # with:
+            #   ref: dev
 
           - name: 安装依赖
             run: |
